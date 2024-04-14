@@ -1,4 +1,4 @@
-# Docker Node + Ngix + MySql
+# Docker Node + NGINX + MySQL
 
 docker exec -it app bash
 
