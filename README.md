@@ -7,10 +7,9 @@ The node app inserts a name in a MySQL database and provides an endpoint that li
 Start the containers ```docker-compose up -d```
 
 Create the database table
-Access the database container shell ```docker exec -it db bash```
-Connect to database ```mysql -uroot -proot nodedb```
-Create the table ```create table people(id int not null auto_increment, name varchar(255), primary key(id));```
+- Access the database container shell ```docker exec -it db bash```
+- Connect to database ```mysql -uroot -proot nodedb```
+- Create the table ```create table people(id int not null auto_increment, name varchar(255), primary key(id));```
 
 Endpoint to list all names
-
-http://localhost:8080
+- http://localhost:8080
