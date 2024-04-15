@@ -9,9 +9,9 @@ Start the containers ```docker-compose up -d```
 Create the database table
 - Access the database container shell ```docker exec -it db bash```
 - Connect to database ```mysql -uroot -proot nodedb```
-- Create the table ```create table people(id int not null auto_increment, name varchar(255), primary key(id));```
+- Create table ```create table people(id int not null auto_increment, name varchar(255), primary key(id));```
 
 Endpoint to list all names
 - http://localhost:8080
 <br>
-![image](https://github.com/Diogo-Amaral/docker-node-nginx/assets/14218370/33b8ea46-bfec-4863-a8ff-d64fd1c58736)
+https://github.com/Diogo-Amaral/docker-node-nginx/assets/14218370/33b8ea46-bfec-4863-a8ff-d64fd1c58736
