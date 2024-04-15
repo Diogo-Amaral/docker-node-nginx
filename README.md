@@ -13,6 +13,6 @@ Create the database table
 
 Endpoint to list all names
 - http://localhost:8080
-<br>
+<br />
 ![image](https://github.com/Diogo-Amaral/docker-node-nginx/assets/14218370/59b88a46-3a3f-4cb4-92b7-2555a46b3992)
 
