@@ -10,9 +10,8 @@ const config = {
 
 const mysql = require('mysql')
 const connection = mysql.createConnection(config)
-
-const sql = `INSERT INTO people(name) values ('John Doe')`
-connection.query(sql)
+connection.query(`create table people(id int not null auto_increment, name varchar(255), primary key(id))`)
+connection.query(`INSERT INTO people(name) values ('John Doe')`)
 connection.end()
 
 app.get('/', async (req, res) => {
